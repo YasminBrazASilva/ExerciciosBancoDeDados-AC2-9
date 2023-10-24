@@ -18,8 +18,8 @@ A execução foi bem sucedida, o dado foi inserido com sucesso e, apesar do camp
 ---
 ### ETAPA 2
 * Criação das tabelas "filmes", "log_deletions" e dos triggers "chk_minutos" e "log_deletions": [Exercicio9_3.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/Exercicio9_3.sql) <br>
- ![ExercicioTela3_1.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela3_1.png)
- ![ExercicioTela3_2.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela3_2.png)
+ ![ExercicioTela3_1.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_3_1.png)
+ ![ExercicioTela3_2.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_3_2.png)
 
 
 * Inserção de dados na tabela "filmes": [Exercicio9_4.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/Exercicio9_4.sql) <br>
