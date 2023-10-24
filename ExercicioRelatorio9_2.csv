@@ -1,0 +1,5 @@
+IDPedido,DataPedido,NomeCliente
+1,"2023-10-23 19:47:55","Cliente 1"
+2,"2023-10-23 19:47:55","Cliente 2"
+3,"2023-10-23 19:47:55","Cliente 3"
+5,"2023-10-23 21:05:59","Novo Cliente"
