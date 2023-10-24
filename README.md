@@ -9,11 +9,11 @@ Reproduza os códigos da aula, execute e explique detalhadamente o que acontece 
  ![ExercicioTela9_1.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_1.png)
 
 * Inserção de dados na tabela: [Exercicio9_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/Exercicio9_2.sql) <br>
-![ExercicioTela9_2.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_2.png)
-
+![ExercicioTela9_2.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_2.png) <br>
 
 **RESULTADO:** <br>
-A execução foi bem sucedida, o dado foi inserido com sucesso e, apesar do campo "DataPedido" não ser preenchido no "INSERT VALUES", devido ao trigger, o campo da nova linha foi preenchida com a data e hora em que o pedido foi criado.
+A execução foi bem sucedida, o dado foi inserido com sucesso e, apesar do campo "DataPedido" não ser preenchido no "INSERT VALUES", devido ao trigger, o campo da nova linha foi preenchida com a data e hora em que o pedido foi criado. <br>
+  * Um relatório pode ser visto em: [ExercicioRelatorio9_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioRelatorio9_2.csv) <br>
  
 ---
 ### ETAPA 2
@@ -33,3 +33,4 @@ Os dados foram inseridos com sucesso até a 4ª inserção. Durante a 5ª tentat
 
 **RESULTADO:** <br>
 Os filmes de ids 2 e 4 foram deletados da tabela e, devido ao trigger "log_deletions" as deleções foram registradas na tabela "log_deletions" com o nome do filme, hora da deleção e usuário responsável.
+  * Um relatório pode ser visto em: [ExercicioRelatorio9_5.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioRelatorio9_5.csv) <br>
