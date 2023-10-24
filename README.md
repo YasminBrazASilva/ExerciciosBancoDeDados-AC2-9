@@ -26,7 +26,7 @@ A execução foi bem sucedida, o dado foi inserido com sucesso na tabela "pedido
 ![ExercicioTela9_4.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_4.png)
 
 **RESULTADO:** <br>
-Os dados foram inseridos com sucesso na tabela "filmes" até a 4ª inserção. Durante a 5ª tentativa houve um erro identificado pelo trigger "chk_minutos", pois, o filme em questão possuia uma quantidade de minutos negativa e, por causa disso, foi lançado o erro 2022.<br>
+Os dados foram inseridos com sucesso na tabela "filmes" até a 4ª inserção. Durante a 5ª tentativa houve um erro identificado pelo trigger "chk_minutos", pois, o filme em questão possuia uma quantidade de minutos negativa e, por causa disso, foi lançado o erro 2022.<br> <br>
 
 * Deleção de dados na tabela "filmes": [Exercicio9_5.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/Exercicio9_5.sql) <br>
 ![ExercicioTela9_5.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_5.png)
