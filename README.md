@@ -12,7 +12,7 @@ Reproduza os códigos da aula, execute e explique detalhadamente o que acontece 
 ![ExercicioTela9_2.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_2.png) <br>
 
 **RESULTADO:** <br>
-A execução foi bem sucedida, o dado foi inserido com sucesso e, apesar do campo "DataPedido" não ser preenchido no "INSERT VALUES", devido ao trigger, o campo da nova linha foi preenchida com a data e hora em que o pedido foi criado. <br>
+A execução foi bem sucedida, o dado foi inserido com sucesso na tabela "pedidos" e, apesar do campo "DataPedido" não ser preenchido no "INSERT VALUES", devido ao trigger, o campo da nova linha foi preenchida com a data e hora em que o pedido foi criado. <br>
   * Um relatório pode ser visto em: [ExercicioRelatorio9_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioRelatorio9_2.csv) <br>
  
 ---
@@ -26,11 +26,11 @@ A execução foi bem sucedida, o dado foi inserido com sucesso e, apesar do camp
 ![ExercicioTela9_4.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_4.png)
 
 **RESULTADO:** <br>
-Os dados foram inseridos com sucesso até a 4ª inserção. Durante a 5ª tentativa houve um erro identificado pelo trigger "chk_minutos", pois, o filme em questão possuia uma quantidade de minutos negativa e, por causa disso, foi lançado o erro 2022.<br>
+Os dados foram inseridos com sucesso na tabela "filmes" até a 4ª inserção. Durante a 5ª tentativa houve um erro identificado pelo trigger "chk_minutos", pois, o filme em questão possuia uma quantidade de minutos negativa e, por causa disso, foi lançado o erro 2022.<br>
 
 * Deleção de dados na tabela "filmes": [Exercicio9_5.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/Exercicio9_5.sql) <br>
 ![ExercicioTela9_5.png](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioTela9_5.png)
 
 **RESULTADO:** <br>
-Os filmes de ids 2 e 4 foram deletados da tabela e, devido ao trigger "log_deletions" as deleções foram registradas na tabela "log_deletions" com o nome do filme, hora da deleção e usuário responsável.
+Os filmes de ids 2 e 4 foram deletados da tabela "filmes" e, devido ao trigger "log_deletions", as deleções foram registradas na tabela "log_deletions" com o nome do filme deletado, hora da deleção e usuário responsável.
   * Um relatório pode ser visto em: [ExercicioRelatorio9_5.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AC2-9/blob/main/ExercicioRelatorio9_5.csv) <br>
